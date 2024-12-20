@@ -53,6 +53,7 @@ const clickSearch = function() {
                 let td = document.createElement("td");
                 let a =  document.createElement("a");
                 let br = document.createElement("br");
+                let td2 = document.createElement("td");
 
                 a.href = "#";
                 a.onclick = function() { clickResult(result[idx].x, result[idx].y, item.address.address_name); }
@@ -63,6 +64,10 @@ const clickSearch = function() {
                     td.append(item.road_address.address_name);
                 }
                 tr.append(td);
+
+                td2.append()
+
+                tr.append(btn)
                 table.append(tr);
 
             })
