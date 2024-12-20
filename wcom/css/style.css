@@ -1,0 +1,26 @@
+#map {
+    width: 100%;
+    height: 800px;
+    margin-top: 20px;
+}
+
+#search {
+    width: 70%;
+    margin-top: 20px;
+    height: 30px;
+    font-size: large;
+}
+
+#btnSearch {
+    height: 35px;
+    width: 80px;
+    font-size: large;
+}
+
+.float_left {
+    float:left; width:20%;
+}
+
+.float_right {
+    float:right; width:80%;
+}
